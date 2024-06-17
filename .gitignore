@@ -1,0 +1,13 @@
+# Default ignored files
+/__pycache__/
+/.idea/
+/shelf/
+/instructions/
+/venv/
+/workspace.xml
+/number_part.py
+/main.py
+/t.txt
+/test.py
+/test.txt
+/Token.txt
