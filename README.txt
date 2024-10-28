@@ -1,1 +1,1 @@
-Версия py-telegram-bot==13.7
+python-telegram-bot==13.7
