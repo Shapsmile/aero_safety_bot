@@ -11,3 +11,6 @@
 /test.py
 /test.txt
 /Token.txt
+config.py
+aero_bot_venv/
+.DS_Store

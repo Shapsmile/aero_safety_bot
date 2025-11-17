@@ -1,10 +1,12 @@
 import sqlite3
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update, Bot, ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler
+
+from config import token
 from data_base_func import escape_markdown_v2, get_all_sections, get_next_point, get_point_by_id, get_points_by_section, get_previous_point, double_newlines
 
 # Токен доступа
-TOKEN = '7048698979:AAG3UtMgPhRLu2LZWw9yHAE27LRtU_zDfj4'
+TOKEN = token
 
 # Адрес базы данных
 data_base = "db/aerological_safety.db"
